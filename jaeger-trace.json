@@ -1,0 +1,543 @@
+{
+  "data": [
+    {
+      "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+      "spans": [
+        {
+          "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+          "spanID": "3b9fa2b5261b5baf",
+          "operationName": "activity echo",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+              "spanID": "ddbd32ebf89531cb"
+            }
+          ],
+          "startTime": 1792595420988000,
+          "duration": 1000,
+          "tags": [
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "space-worker-proof"
+            },
+            {
+              "key": "space.activity_id",
+              "type": "string",
+              "value": "1"
+            },
+            {
+              "key": "space.activity_type",
+              "type": "string",
+              "value": "echo"
+            },
+            {
+              "key": "space.attempt",
+              "type": "int64",
+              "value": 1
+            },
+            {
+              "key": "space.duration_ms",
+              "type": "int64",
+              "value": 1
+            },
+            {
+              "key": "space.outcome",
+              "type": "string",
+              "value": "COMPLETED"
+            },
+            {
+              "key": "space.run_id",
+              "type": "string",
+              "value": "b2ca519b-87ad-4ef0-9979-c2a67516086f"
+            },
+            {
+              "key": "space.workflow_id",
+              "type": "string",
+              "value": "99ea91ec-77b6-460a-b7c0-5daca10f6128"
+            },
+            {
+              "key": "space.workflow_type",
+              "type": "string",
+              "value": "tracingLeafWorkflow"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "internal"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+          "spanID": "ddbd32ebf89531cb",
+          "operationName": "workflow tracingLeafWorkflow",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+              "spanID": "1f73bee46e402dc0"
+            }
+          ],
+          "startTime": 1792595420381000,
+          "duration": 609000,
+          "tags": [
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "space-worker-proof"
+            },
+            {
+              "key": "space.duration_ms",
+              "type": "int64",
+              "value": 609
+            },
+            {
+              "key": "space.outcome",
+              "type": "string",
+              "value": "COMPLETED"
+            },
+            {
+              "key": "space.run_id",
+              "type": "string",
+              "value": "b2ca519b-87ad-4ef0-9979-c2a67516086f"
+            },
+            {
+              "key": "space.workflow_id",
+              "type": "string",
+              "value": "99ea91ec-77b6-460a-b7c0-5daca10f6128"
+            },
+            {
+              "key": "space.workflow_type",
+              "type": "string",
+              "value": "tracingLeafWorkflow"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "internal"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+          "spanID": "357bedfaa5886259",
+          "operationName": "activity echo",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+              "spanID": "1f73bee46e402dc0"
+            }
+          ],
+          "startTime": 1792595421017000,
+          "duration": 0,
+          "tags": [
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "space-worker-proof"
+            },
+            {
+              "key": "space.activity_id",
+              "type": "string",
+              "value": "3"
+            },
+            {
+              "key": "space.activity_type",
+              "type": "string",
+              "value": "echo"
+            },
+            {
+              "key": "space.attempt",
+              "type": "int64",
+              "value": 1
+            },
+            {
+              "key": "space.duration_ms",
+              "type": "int64",
+              "value": 0
+            },
+            {
+              "key": "space.outcome",
+              "type": "string",
+              "value": "COMPLETED"
+            },
+            {
+              "key": "space.run_id",
+              "type": "string",
+              "value": "b85d2692-6e9f-4ba5-a7b0-c7056a595d93"
+            },
+            {
+              "key": "space.workflow_id",
+              "type": "string",
+              "value": "manual-proof-f7416df5-05cd-44ac-bcdf-88b91d183632"
+            },
+            {
+              "key": "space.workflow_type",
+              "type": "string",
+              "value": "tracingWorkflow"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "internal"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": [
+            "Negative duration detected, sanitizing end timestamp. Original end timestamp: 2026-10-21 15:10:21.017 +0000 UTC, adjusted to: 2026-10-21 15:10:21.017000001 +0000 UTC",
+            "clock skew adjustment disabled; not applying calculated delta of -1.205500001s"
+          ]
+        },
+        {
+          "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+          "spanID": "1f73bee46e402dc0",
+          "operationName": "workflow tracingWorkflow",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+              "spanID": "2b2f447d082821fd"
+            }
+          ],
+          "startTime": 1792595418623000,
+          "duration": 2377000,
+          "tags": [
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "space-worker-proof"
+            },
+            {
+              "key": "space.duration_ms",
+              "type": "int64",
+              "value": 2377
+            },
+            {
+              "key": "space.outcome",
+              "type": "string",
+              "value": "COMPLETED"
+            },
+            {
+              "key": "space.run_id",
+              "type": "string",
+              "value": "b85d2692-6e9f-4ba5-a7b0-c7056a595d93"
+            },
+            {
+              "key": "space.workflow_id",
+              "type": "string",
+              "value": "manual-proof-f7416df5-05cd-44ac-bcdf-88b91d183632"
+            },
+            {
+              "key": "space.workflow_type",
+              "type": "string",
+              "value": "tracingWorkflow"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "internal"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+          "spanID": "2b2f447d082821fd",
+          "operationName": "POST /api/trace-proof",
+          "references": [],
+          "startTime": 1792595418607617,
+          "duration": 2431131,
+          "tags": [
+            {
+              "key": "http.request.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "http.response.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "http.route",
+              "type": "string",
+              "value": "/api/trace-proof"
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "space-api-proof"
+            },
+            {
+              "key": "space.request_id",
+              "type": "string",
+              "value": "req:manual-otlp-proof"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            }
+          ],
+          "logs": [],
+          "processID": "p2",
+          "warnings": null
+        },
+        {
+          "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+          "spanID": "2797730d9a6e46d7",
+          "operationName": "activity echo",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+              "spanID": "1f73bee46e402dc0"
+            }
+          ],
+          "startTime": 1792595419340000,
+          "duration": 2000,
+          "tags": [
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "space-worker-proof"
+            },
+            {
+              "key": "space.activity_id",
+              "type": "string",
+              "value": "1"
+            },
+            {
+              "key": "space.activity_type",
+              "type": "string",
+              "value": "echo"
+            },
+            {
+              "key": "space.attempt",
+              "type": "int64",
+              "value": 1
+            },
+            {
+              "key": "space.duration_ms",
+              "type": "int64",
+              "value": 2
+            },
+            {
+              "key": "space.outcome",
+              "type": "string",
+              "value": "COMPLETED"
+            },
+            {
+              "key": "space.run_id",
+              "type": "string",
+              "value": "b85d2692-6e9f-4ba5-a7b0-c7056a595d93"
+            },
+            {
+              "key": "space.workflow_id",
+              "type": "string",
+              "value": "manual-proof-f7416df5-05cd-44ac-bcdf-88b91d183632"
+            },
+            {
+              "key": "space.workflow_type",
+              "type": "string",
+              "value": "tracingWorkflow"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "internal"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+          "spanID": "8f1661f0d50f1395",
+          "operationName": "activity retry",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+              "spanID": "1f73bee46e402dc0"
+            }
+          ],
+          "startTime": 1792595419358000,
+          "duration": 1000,
+          "tags": [
+            {
+              "key": "error",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "space-worker-proof"
+            },
+            {
+              "key": "otel.status_code",
+              "type": "string",
+              "value": "ERROR"
+            },
+            {
+              "key": "space.activity_id",
+              "type": "string",
+              "value": "2"
+            },
+            {
+              "key": "space.activity_type",
+              "type": "string",
+              "value": "retry"
+            },
+            {
+              "key": "space.attempt",
+              "type": "int64",
+              "value": 1
+            },
+            {
+              "key": "space.category",
+              "type": "string",
+              "value": "UPSTREAM_UNAVAILABLE"
+            },
+            {
+              "key": "space.duration_ms",
+              "type": "int64",
+              "value": 1
+            },
+            {
+              "key": "space.outcome",
+              "type": "string",
+              "value": "FAILED"
+            },
+            {
+              "key": "space.reason_code",
+              "type": "string",
+              "value": "UPSTREAM_RETRYABLE_UNAVAILABLE"
+            },
+            {
+              "key": "space.run_id",
+              "type": "string",
+              "value": "b85d2692-6e9f-4ba5-a7b0-c7056a595d93"
+            },
+            {
+              "key": "space.workflow_id",
+              "type": "string",
+              "value": "manual-proof-f7416df5-05cd-44ac-bcdf-88b91d183632"
+            },
+            {
+              "key": "space.workflow_type",
+              "type": "string",
+              "value": "tracingWorkflow"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "internal"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+          "spanID": "0bde6e6763543e0c",
+          "operationName": "activity retry",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "75016796e9658e4bfad0dd5cc3e4b6f6",
+              "spanID": "1f73bee46e402dc0"
+            }
+          ],
+          "startTime": 1792595420368000,
+          "duration": 1000,
+          "tags": [
+            {
+              "key": "otel.scope.name",
+              "type": "string",
+              "value": "space-worker-proof"
+            },
+            {
+              "key": "space.activity_id",
+              "type": "string",
+              "value": "2"
+            },
+            {
+              "key": "space.activity_type",
+              "type": "string",
+              "value": "retry"
+            },
+            {
+              "key": "space.attempt",
+              "type": "int64",
+              "value": 2
+            },
+            {
+              "key": "space.duration_ms",
+              "type": "int64",
+              "value": 1
+            },
+            {
+              "key": "space.outcome",
+              "type": "string",
+              "value": "COMPLETED"
+            },
+            {
+              "key": "space.run_id",
+              "type": "string",
+              "value": "b85d2692-6e9f-4ba5-a7b0-c7056a595d93"
+            },
+            {
+              "key": "space.workflow_id",
+              "type": "string",
+              "value": "manual-proof-f7416df5-05cd-44ac-bcdf-88b91d183632"
+            },
+            {
+              "key": "space.workflow_type",
+              "type": "string",
+              "value": "tracingWorkflow"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "internal"
+            }
+          ],
+          "logs": [],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "space-worker-proof",
+          "tags": []
+        },
+        "p2": {
+          "serviceName": "space-api-proof",
+          "tags": []
+        }
+      },
+      "warnings": null
+    }
+  ],
+  "total": 0,
+  "limit": 0,
+  "offset": 0,
+  "errors": null
+}
